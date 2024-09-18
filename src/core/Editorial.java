@@ -2,22 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package main;
+package core;
 
-import core.Editorial;
-import core.Stand;
 import java.util.ArrayList;
 
 /**
  *
  * @author amvalverde
  */
-public class Main {
-    
-    public static void main(String[] args) {
-        System.out.println("Sigma");
-    }
+public class Editorial {
+    private String nit;
+    private String nombre;
+    private String direccion;
+    private Gerente gerente;
+    private ArrayList<Libro>libros;
     private ArrayList<Stand>stands;
-    private ArrayList<Editorial>editorial;
-    
 }
